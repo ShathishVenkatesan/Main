@@ -8,7 +8,7 @@ def googletest_deps():
 
     if not native.existing_rule("re2"):
         http_archive(
-            name = "re2",
+            name = "re3",
             sha256 = "eb2df807c781601c14a260a507a5bb4509be1ee626024cb45acbd57cb9d4032b",
             strip_prefix = "re2-2024-07-02",
             urls = ["https://github.com/google/re2/releases/download/2024-07-02/re2-2024-07-02.tar.gz"],
